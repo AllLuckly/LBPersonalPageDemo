@@ -16,12 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //头像设置
+    self.headImageView.image = [UIImage imageNamed:@"myheadimage.jpeg"];
+    //背景设置
+    self.imageBG.image = [UIImage imageNamed:@"BG.jpg"];
+    //昵称设置
+    self.nameLabel.text = @"BISON";
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//右边按钮
+- (void)rightBtnAction{
+    NSLog(@"hello-rig");
 }
+//左边按钮
+- (void)leftBtnAction{
+    NSLog(@"hello-left");
+}
+
 
 @end

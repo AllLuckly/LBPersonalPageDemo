@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "LBPersonalPage_VC.h"
 
+@interface ViewController : LBPersonalPage_VC
 
 @end
-
