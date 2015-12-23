@@ -1,6 +1,6 @@
 # LBPersonalPageDemo
 
-> [点击此--->更多开发技巧](http://allluckly.cf/) <br>
+> [点击此--->更多开发技巧](http://allluckly.cn/) <br>
 
 `继承LBPersonalPage_VC`
 ```
